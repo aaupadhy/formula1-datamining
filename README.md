@@ -14,6 +14,7 @@ This project applies data mining techniques to the Formula 1 World Championship 
 - Frequent itemset mining and association rules (pit stop strategy patterns)
 - Graph mining with PageRank and community detection (driver-constructor networks)
 - Large-scale ML with ensemble methods (race outcome prediction)
+- Clustering with k-means and DBSCAN (identifying competitive eras)
 
 **Beyond-course technique:**
 - Survival analysis for DNF (did not finish) prediction using Cox proportional hazards modeling
@@ -34,7 +35,8 @@ jupyter notebook checkpoint1.ipynb
 ## Project Structure
 
 ```
-├── checkpoint1.ipynb     # Main project notebook
+├── checkpoint1.ipynb     # Checkpoint 1: Dataset selection and EDA
+├── checkpoint2.ipynb     # Checkpoint 2: Research question formation
 ├── data/                 # F1 dataset CSV files
 ├── requirements.txt      # Python dependencies
 └── README.md
@@ -43,3 +45,4 @@ jupyter notebook checkpoint1.ipynb
 ## Checkpoints
 
 - **Checkpoint 1:** Dataset comparison, selection, and exploratory data analysis
+- **Checkpoint 2:** Research question definition, additional EDA, feasibility analysis, and initial method runs
